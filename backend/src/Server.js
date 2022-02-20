@@ -12,3 +12,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     Logger.http(`api up and running on http://localhost:${port}`)
 })
+
+export default app
