@@ -1,15 +1,16 @@
 {
   "name": "backend",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A chat / call app for business to use instead of teams / google teams",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node .",
+    "app": "nodemon src/Server.js",
     "test": "mocha 'src/test/**'"
   },
   "keywords": [],
-  "author": "",
+  "author": "Emilie Ost, Mattias Andersson",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.2",
