@@ -1,0 +1,59 @@
+:root {
+    --main-dark-purple: #56455C;
+    --main-light-purple: #9A83A0;
+    --main-chat-purple: #6C4D8B;
+    --main-info-purple: #EBE1F2;
+    --main-background: #C7BFB6;
+    --main-pink: #F3BDF1;
+    --main-white: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: var(--main-background);
+}
+
+.wrapper {
+
+}
+
+.header {
+    background: var(--main-dark-purple);
+    width: 1500px;
+    height: 75px;
+    margin: 0 auto;
+    color: var(--main-white);
+}
+
+.headingLogo {
+    padding: 1.1rem;
+    font-size: 2rem;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.sectionSide {
+    width: 300px;
+    background-color: var(--main-info-purple);
+}
+
+.sectionMid {
+    width: 900px;
+}
+
+li {
+    display: block;
+    margin: 1rem;
+}
